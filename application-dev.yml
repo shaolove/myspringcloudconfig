@@ -1,0 +1,4 @@
+jdbc.oracle.act6.url: jdbc:mysql://127.0.0.1:3306/devdb?characterEncoding=utf8
+jdbc.oracle.act6.username: root
+jdbc.oracle.act6.password: sywn2018
+jdbc.oracle.act6.driver-class-name: com.mysql.jdbc.Driver
