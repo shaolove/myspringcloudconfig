@@ -1,1 +1,2 @@
 test: 我是配置中心配置信息
+marathon-lb.bo.domainname:marathon-lb-bo.marathon.mesos
