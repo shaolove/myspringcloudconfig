@@ -1,6 +1,6 @@
 test: 我是配置中心配置信息
 marathon-lb.bo.domainname: marathon-lb-bo.marathon.mesos
-app.datasource.actdb3.url: jdbc:oracle:thin:@(description=(LOAD_BALANCE = off)(FAILOVER = on)(address= (protocol=tcp)(host=134.32.28.56)(port=1523))(address= (protocol=tcp)(host=134.32.28.55)(port=1523))(connect_data= (service_name=act3db)(failover_mode=(type=select)(method=basic)(backup=act3db2_tux)(retries=20)(delay=20))))
-app.datasource.actdb3.username: si_shaoyong
-app.datasource.actdb3.password: stc_xiao9662
-app.datasource.actdb3.driver-class-name: oracle.jdbc.driver.OracleDriver
+jdbc.oracle.act6.url: jdbc:oracle:thin:@(description=(LOAD_BALANCE = off)(FAILOVER = on)(address= (protocol=tcp)(host=134.32.28.56)(port=1523))(address= (protocol=tcp)(host=134.32.28.55)(port=1523))(connect_data= (service_name=act3db)(failover_mode=(type=select)(method=basic)(backup=act3db2_tux)(retries=20)(delay=20))))
+jdbc.oracle.act6.username: si_shaoyong
+jdbc.oracle.act6.password: stc_xiao9662
+jdbc.oracle.act6.driver-class-name: oracle.jdbc.driver.OracleDriver
