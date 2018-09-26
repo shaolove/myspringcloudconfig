@@ -2,5 +2,5 @@ test: 我是配置中心配置信息
 marathon-lb.bo.domainname: marathon-lb-bo.marathon.mesos
 jdbc.oracle.act6.url: jdbc:oracle:thin:@134.32.30.131:3521:siact4db
 jdbc.oracle.act6.username: si_shaoyong
-jdbc.oracle.act6.password: stc_xiao9662
+jdbc.oracle.act6.password: stc_xiao9672
 jdbc.oracle.act6.driver-class-name: oracle.jdbc.driver.OracleDriver
