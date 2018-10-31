@@ -1,30 +1,6 @@
-
-app.datasource.bar.url:jdbc:oracle:thin:@134.32.30.131:3521:sibil4db
-app.datasource.bar.username:ucr_bil_acct
-app.datasource.bar.password:SI_shaoyong123
-app.datasource.bar.driver-class-name:oracle.jdbc.driver.OracleDriver
-
-app.datasource.actdb1.url:jdbc:oracle:thin:@134.32.30.132:3521:siact1db
-app.datasource.actdb1.username:si_shaoyong
-app.datasource.actdb1.password:stc_xiao9672
-app.datasource.actdb1.driver-class-name:oracle.jdbc.driver.OracleDriver
-
-app.datasource.actdb2.url:jdbc:oracle:thin:@134.32.30.130:3521:siact2db
-app.datasource.actdb2.username:si_shaoyong
-app.datasource.actdb2.password:stc_xiao9672
-app.datasource.actdb2.driver-class-name:oracle.jdbc.driver.OracleDriver
-
-app.datasource.actdb3.url:jdbc:oracle:thin:@134.32.30.133:3521:siact3db
-app.datasource.actdb3.username:si_shaoyong
-app.datasource.actdb3.password:stc_xiao9672
-app.datasource.actdb3.driver-class-name:oracle.jdbc.driver.OracleDriver
-
-app.datasource.actdb4.url:jdbc:oracle:thin:@134.32.30.131:3521:siact4db
-app.datasource.actdb4.username:si_shaoyong
-app.datasource.actdb4.password:stc_xiao9672
-app.datasource.actdb4.driver-class-name:oracle.jdbc.driver.OracleDriver
-
-app.datasource.actdb6.url:jdbc:oracle:thin:@ (DESCRIPTION : (ADDRESS : (PROTOCOL : TCP)(HOST : 134.32.10.113)(PORT : 1521)) (CONNECT_DATA : (SERVER : DEDICATED)  (SID : jihe) )     )
-app.datasource.actdb6.username:bill_check
-app.datasource.actdb6.password:stcxiao7799
-app.datasource.actdb6.driver-class-name:oracle.jdbc.driver.OracleDriver
+test: 我是配置中心配置信息
+marathon-lb.bo.domainname: marathon-lb-bo.marathon.mesos
+jdbc.oracle.act6.url: jdbc:oracle:thin:@134.32.30.131:3521:siact4db
+jdbc.oracle.act6.username: si_shaoyong
+jdbc.oracle.act6.password: stc_xiao9672
+jdbc.oracle.act6.driver-class-name: oracle.jdbc.driver.OracleDriver
