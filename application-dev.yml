@@ -1,3 +1,4 @@
+test: woaini
 app.datasource.bar.url: jdbc:oracle:thin:@134.32.30.131:3521:sibil4db
 app.datasource.bar.username: ucr_bil_acct
 app.datasource.bar.password: SI_shaoyong123
